@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- https://youtu.be/QY7Rj8aZcZk -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,10 +59,16 @@
             margin-bottom: -10vw;
             position: relative;
             z-index: 10;
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+            margin-bottom: -10vw;
         }
 
         .two__image {
             clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+        }
+
+        .three {
+            background: #5B5F97;
         }
         /* https://bennettfeely.com/clippy/ */
     </style>
@@ -74,6 +81,10 @@
 
     <section class="two">
         <img class="two__image" src="bodrov.jpg" alt="">
+    </section>
+
+    <section class="three">
+        
     </section>
     
 </body>
